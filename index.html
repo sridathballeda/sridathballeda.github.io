@@ -29,6 +29,7 @@ const PROFILE = {
   linkedin: "https://www.linkedin.com/in/sridath-balleda-880b667b/",
   github: "",            // optional, leave "" to hide
   resumeUrl: "",         // optional, e.g. "Sridath_Resume.pdf" placed next to index.html
+  photo: "photo.jpg",    // optional, square image next to index.html, leave "" to hide
   // Optional: free access key from web3forms.com so the contact form
   // delivers straight to your Gmail inbox. Leave "" and the form will
   // open the visitor's own email app instead.
@@ -256,6 +257,9 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
 
 /* hero */
 .hero{padding:5rem 0 4rem}
+.photo{display:block;width:9rem;height:9rem;border-radius:50%;object-fit:cover;border:3px solid var(--primary);margin:0 0 1.75rem}
+.photo[hidden]{display:none}
+@media (max-width:520px){.photo{width:7rem;height:7rem}}
 .hero h1{font-family:var(--display);font-weight:800;font-size:clamp(3.5rem,13vw,9rem);line-height:.9;letter-spacing:-.04em;margin:0}
 .hero h2{font-family:var(--display);font-weight:600;font-size:clamp(1.4rem,3.2vw,2.25rem);line-height:1.15;letter-spacing:-.01em;margin:1.5rem 0 0;color:var(--primary);max-width:22ch}
 .hero p{max-width:38rem;margin:1.25rem 0 0;font-size:1.15rem;color:var(--muted)}
@@ -373,6 +377,7 @@ footer{border-top:1px solid var(--line);padding:2rem 0;color:var(--muted);font-s
 <main id="top">
   <header class="hero">
     <div class="wrap">
+      <img class="photo" id="photo" alt="" width="144" height="144" hidden>
       <h1 id="name"></h1>
       <h2 id="headline"></h2>
       <p id="intro"></p>
@@ -441,6 +446,7 @@ const $ = id => document.getElementById(id);
 
 $("brand").textContent = P.name;
 $("name").textContent = P.name;
+if (P.photo) { $("photo").src = P.photo; $("photo").alt = `Photo of ${P.name}`; $("photo").hidden = false; }
 $("headline").textContent = P.headline;
 $("intro").textContent = P.intro;
 
