@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sridath Balleda | SAP Solution Architect and Agentic AI</title>
+<meta name="description" content="Sridath Balleda is an SAP solution architect in Singapore with 12+ years across SAP Basis, BTP and Integration Suite, now building agentic AI on top of enterprise systems.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230277BD'/><text x='50' y='70' font-size='62' font-family='Arial' font-weight='700' text-anchor='middle' fill='%23FFFFFF'>S</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<script>
+/* =====================================================================
+   EDIT THIS BLOCK ONLY. Everything on the page is drawn from it.
+   Anything starting with "TODO" shows highlighted on the page so you
+   can spot what still needs your real details before you publish.
+   ===================================================================== */
+const PROFILE = {
+  name: "Sridath Balleda",
+  headline: "SAP solution architect moving into agentic AI and machine learning",
+  intro: "I design and run SAP landscapes, connect them through BTP Integration Suite, and build AI agents on top of the systems enterprises already depend on.",
+  location: "Singapore",
+  updated: "October 2026",
+  theme: "sky",
+  font: "grotesk",       // typeface: "bricolage", "grotesk", "jakarta", "editorial", "outfit" or "manrope"      // colour theme: "indigo", "petrol", "burgundy", "forest", "navy", "graphite", "plum", "lagoon", "slate", "terracotta", "royal", "violet", "sky", "sunset" or "electric"
+
+  // --- Contact -------------------------------------------------------
+  email: "sridath.balleda@gmail.com",
+  linkedin: "https://www.linkedin.com/in/sridath-balleda-880b667b/",
+  github: "",            // optional, leave "" to hide
+  resumeUrl: "",         // optional, e.g. "Sridath_Resume.pdf" placed next to index.html
+  // Optional: free access key from web3forms.com so the contact form
+  // delivers straight to your Gmail inbox. Leave "" and the form will
+  // open the visitor's own email app instead.
+  web3formsKey: "",
+
+  // --- LinkedIn posts ------------------------------------------------
+  // On a LinkedIn post: three-dot menu > "Embed this post" > copy the
+  // src="..." URL from the snippet and paste it here. Newest first.
+  linkedinPosts: [
+    // "https://www.linkedin.com/embed/feed/update/urn:li:share:0000000000000000000"
+  ],
+
+  about: [
+    "I have spent more than 12 years inside SAP landscapes, starting in SAP Basis and moving through GRC, Solution Manager and SAP BTP. Today I am a Lead Engineer for SAP and Infrastructure at Synapxe, Singapore's national health IT organisation.",
+    "Most of my work sits where systems meet: integration flows, event-driven architecture and the platform services that keep them reliable. That is also why agentic AI makes sense to me. An agent that calls tools and hands work to other agents is an integration problem with a reasoning step in the middle.",
+    "I am studying that properly, through a PG Diploma in AI and ML at IIT Delhi and an Agentic AI programme at IIT Bombay, and I am interested in how enterprises keep AI agents accountable and traceable once they run in production."
+  ],
+
+  architecture: {
+    intro: [
+      "I approach SAP as an enterprise architect on the customer side: every platform decision has to earn its place by moving a business measure. I have spent years being the person who signs off vendor proposals, sizes the landscape and answers to management for what the investment returned."
+    ],
+    principles: [
+      { title: "Start from the business outcome", detail: "Map each initiative to a KPI the business already tracks, such as cycle time, error rate or cost, then pick the quick wins that prove value early." },
+      { title: "Use what is already paid for", detail: "Look inside existing contracts before buying more. Monitoring on the Cloud ALM tenant bundled with RISE, and SAP Cloud Identity Services in place of new directory licences, are two examples from SMRT." },
+      { title: "Size and cost before committing", detail: "HANA and BTP sizing and costing, validating vendor pre-sales proposals, and assessing RFP and tender specifications so the organisation buys what it needs." },
+      { title: "Keep the core clean", detail: "Move extensions and integrations to SAP BTP, retire end-of-life components, and plan migrations such as PI/PO to Integration Suite to reduce technical debt ahead of S/4HANA and RISE." },
+      { title: "Measure and report the return", detail: "Track savings, licence use and adoption, manage capital and operating budgets, and review outcomes with business units every quarter. This discipline produced 2M Kaizen savings." }
+    ]
+  },
+
+  // The stages shown in the flow under the headline
+  path: ["SAP Basis and GRC", "BTP and Integration Suite", "SAP Business AI", "Agentic AI and ML", "SAP Autonomous Enterprise"],
+
+  // The move from SAP platforms to AI, oldest first. now:true marks where you are today.
+  journey: [
+    { when: "2014 to 2020", title: "SAP platforms", detail: "Basis, Solution Manager and GRC at IBM, Infosys and Accenture. This is where I learned how enterprise systems are built, secured and kept running." },
+    { when: "2020 to 2025", title: "Integration and SAP BTP", detail: "At SMRT I moved from running systems to connecting them: more than 120 integration flows, CAP applications and event-driven design on SAP BTP." },
+    { when: "From 2024", title: "SAP Business AI", detail: "Put AI to work on real processes: invoice posting with Document Information Extraction, a Joule proof of concept for executives, AI solution design for HR use cases and agentic AI workshops." },
+    { when: "Now", now: true, title: "Agentic AI and machine learning", detail: "Studying the foundations through a PG Diploma in AI and ML at IIT Delhi and an Agentic AI programme at IIT Bombay, building with LangGraph and Joule Studio, and starting research." },
+    { when: "Next", title: "SAP Autonomous Enterprise", detail: "SAP's direction is for assistants and agents to carry out end-to-end business processes under enterprise governance. I want to architect those landscapes and help make the agents in them accountable." }
+  ],
+
+  research: {
+    intro: [
+      "I am looking for collaborators on machine learning research, especially where it meets enterprise systems. I bring twelve years of practitioner knowledge of how large SAP landscapes work, and I would like to work with academics, students and industry researchers on papers, datasets and experiments."
+    ],
+    interests: [
+      { title: "Accountability of AI agents", detail: "How an enterprise traces, audits and reverses a wrong action when the agents are vendor-managed and chained together." },
+      { title: "Machine learning for operations", detail: "Applying ML to operational problems in transport and logistics, such as how delays propagate." }
+    ]
+  },
+
+  experience: [
+    { org: "Synapxe", place: "Singapore", role: "Lead Engineer, SAP and Infrastructure", period: "Jan 2026 to present",
+      points: [
+        "SAP Centre of Excellence lead for SAP BTP.",
+        "Infrastructure single point of contact for all SAP projects.",
+        "Coordinate the RISE with SAP migration between SAP and the implementation partner.",
+        "Review technical design documents for sign-off, and assess SAP security notes and vulnerability findings with mitigation plans."
+      ] },
+    { org: "SMRT Corporation", place: "Singapore", role: "ERP Systems Specialist", period: "Jun 2020 to Jan 2026",
+      points: [
+        "Single point of contact for technical, integration and infrastructure topics across SAP ECC, PI, GRC, SuccessFactors and Ariba, working with SAP's hosting team and vendors.",
+        "Global administrator for SAP BTP: provisioned Integration Suite, now running more than 120 integration flows, and delivered apps, automation and monitoring on the platform.",
+        "Planned upgrades, capacity and disaster recovery with SAP, reaching 100% of the recovery point and recovery time targets in DR exercises.",
+        "Ran GRC access governance: segregation-of-duties reviews, rule sets, annual user access reviews and emergency access, and supported SAP licence, internal and external audits.",
+        "Led internal projects as project manager using Agile, and mentored colleagues on Integration Suite, SAP Build and process automation."
+      ] },
+    { org: "Accenture", place: "Singapore", role: "SAP Technical Architect", period: "Dec 2019 to Apr 2020",
+      points: [
+        "Installed and configured SAP Solution Manager 7.2 for a public healthcare technology agency, including ChaRM and technical monitoring.",
+        "Handled SAP system sizing and infrastructure management for the programme.",
+        "Integrated Solution Manager with SAP Convergent Charging and Convergent Mediation.",
+        "Installed and configured S/4HANA 1909 and Fiori on HANA."
+      ] },
+    { org: "Infosys", place: "India", role: "SAP Solution Manager Lead Consultant", period: "Nov 2018 to Nov 2019",
+      points: [
+        "Configured Solution Documentation in Solution Manager 7.2 for a European manufacturing client, including the approval flow and roles.",
+        "Set up ChaRM for three-system and four-system landscapes, with phase cycles and transport management.",
+        "Configured technical monitoring for S/4HANA systems.",
+        "Wrote the training material and trained functional consultants and third-party vendors."
+      ] },
+    { org: "IBM", place: "India", role: "SAP Basis Consultant", period: "May 2014 to Nov 2018",
+      points: [
+        "Ran SAP Basis operations for a global professional services firm across ECC, BW on HANA, CRM, SRM, GRC, PI/PO and Solution Manager 7.1.",
+        "Carried out NetWeaver and kernel upgrades, system refreshes and installations of new landscapes ahead of go-live.",
+        "Configured SNC and single sign-on for new systems, plus Solution Manager monitoring and alerts.",
+        "Managed transports, batch jobs, backups and planned outages, and resolved performance issues with functional teams.",
+        "Handled user administration and role design, tracing and fixing missing authorisations.",
+        "Implemented and supported GRC access request management, segregation-of-duties rule sets and emergency access."
+      ] }
+  ],
+
+  skills: [
+    { group: "Enterprise architecture", items: ["Business value and KPI mapping", "TCO and ROI cases", "Clean core strategy", "SAP reference architecture", "RFP and tender evaluation", "Licence and cost optimisation"] },
+    { group: "SAP platform", items: ["SAP Basis", "S/4HANA and RISE with SAP", "HANA sizing", "Solution Manager", "Cloud ALM", "GRC access control", "SAP on Azure and AWS"] },
+    { group: "SAP BTP", items: ["Integration Suite", "CAP", "SAP Build Process Automation", "Cloud Identity Services", "Datasphere", "Business Data Cloud", "BTP sizing and costing"] },
+    { group: "AI and ML", items: ["Agentic AI patterns", "SAP Business AI and Joule", "Joule Studio", "Document Information Extraction", "LangGraph", "Machine learning fundamentals"] }
+  ],
+
+  // Figures are from your SMRT deck. Add the currency, and check you may publish them.
+  projects: [
+    { title: "Single sign-in for frontline staff", detail: "Used SAP Cloud Identity Services as the identity provider for a third-party mobile app, giving bus captains one secure login with multi-factor authentication for leave, payslips and rosters. Saved more than 400k in licence costs and won the GCEO Award.", tags: ["Cloud Identity Services", "SuccessFactors"] },
+    { title: "Invoice posting automation", detail: "A bot reads scanned PDF invoices and posts them into SAP finance, cutting manual effort and errors. Saves more than 250k a year.", tags: ["Build Process Automation", "Document Information Extraction"] },
+    { title: "Shift swap app", detail: "A CAP application that lets employees swap shifts through an approval workflow, integrated with SuccessFactors and the workforce system. No servers to maintain.", tags: ["CAP", "Build Work Zone", "HANA Cloud"] },
+    { title: "Integration Suite rollout", detail: "Provisioned Integration Suite for SuccessFactors and backend integrations. More than 120 integration flows now run on it, with pre-built content speeding up delivery.", tags: ["Integration Suite", "Cloud Transport Management"] },
+    { title: "Operations monitoring on Cloud ALM", detail: "Set up SAP Cloud ALM so business owners can monitor critical integration flows, system health and SuccessFactors integration scenarios themselves.", tags: ["Cloud ALM"] },
+    { title: "Datasphere and Joule proofs of concept", detail: "Connected SAP ECC and an Azure data lake through Datasphere for Power BI reporting, and demonstrated Joule on SuccessFactors to executive management.", tags: ["Datasphere", "Joule"] }
+  ],
+
+  achievements: [
+    { title: "GCEO Award", detail: "For the frontline staff sign-in project at SMRT, recognised for innovation and cost savings." },
+    { title: "2M Kaizen savings", detail: "Delivered across continuous improvement projects." },
+    { title: "120+ integration flows in production", detail: "Built and run on SAP Integration Suite at SMRT." },
+    { title: "100% recovery targets met", detail: "Achieved full RPO and RTO in SMRT's disaster recovery exercises." },
+    { title: "SMRT ABCD recognition", detail: "Awarded for being Agile, Bold, Collaborative and Disciplined." },
+    { title: "Deep Skill Adder Award, three times", detail: "Awarded by IBM for performance in 2014, 2015 and 2016." },
+    { title: "Top-rated performer at IBM", detail: "Rated in the top band every year from joining in 2014." }
+  ],
+
+  education: [
+    { title: "PG Diploma in AI and ML", org: "IIT Delhi", note: "In progress" },
+    { title: "Agentic AI programme", org: "IIT Bombay", note: "In progress" },
+    { title: "B.Tech, Electrical and Electronics Engineering", org: "JNTU Anantapur", note: "India" }
+  ],
+
+  certifications: [
+    // All 27 entries from your LinkedIn "Licenses & certifications", newest first.
+    // The first `certsShown` are visible; the rest sit behind a "Show more" toggle.
+    { title: "Guiding AI Driven Transformation as an SAP Enterprise Architect", org: "SAP", note: "Sep 2026" },
+    { title: "Introducing Joule Studio", org: "SAP", note: "Sep 2026" },
+    { title: "Boosting AI-driven Business Transformation with Joule Agents", org: "SAP", note: "Aug 2026" },
+    { title: "Discovering Agentic AI", org: "SAP", note: "Aug 2026" },
+    { title: "Introducing SAP Joule for Consultants", org: "SAP", note: "Jul 2026" },
+    { title: "Positioning SAP Business Data Cloud", org: "SAP", note: "Jul 2026" },
+    { title: "Introducing SAP Business Data Cloud", org: "SAP", note: "Jun 2026" },
+    { title: "Discovering the Autonomous Enterprise", org: "SAP", note: "May 2026" },
+    { title: "AI Tools Workshop", org: "Be10x", note: "May 2026" },
+    { title: "Claude 101", org: "Anthropic", note: "May 2026" },
+    { title: "ITIL Foundation", org: "PeopleCert", note: "Apr 2026" },
+    { title: "Discovering High-Value Opportunities for Agentic AI", org: "SAP", note: "Apr 2026" },
+    { title: "Introducing Joule Studio in SAP Build", org: "SAP", note: "Apr 2026" },
+    { title: "SAP Cloud Platform Integration Service Overview", org: "SAP", note: "Apr 2026" },
+    { title: "Introducing Joule", org: "SAP", note: "Mar 2026" },
+    { title: "Positioning SAP CIAM", org: "SAP", note: "Feb 2026" },
+    { title: "Exploring SAP Reference Content as Enterprise Architect", org: "SAP", note: "Sep 2025" },
+    { title: "Modernizing Integration with SAP Integration Suite", org: "SAP Learning MOOC", note: "Apr 2025" },
+    { title: "Provisioning and Implementing Joule", org: "SAP", note: "Oct 2024" },
+    { title: "Exploring SAP Cloud ERP", org: "SAP", note: "Oct 2024" },
+    { title: "Applying the RISE with SAP Methodology", org: "SAP", note: "Oct 2024" },
+    { title: "Administrating SAP S/4HANA Cloud, Public Edition", org: "SAP", note: "Oct 2024" },
+    { title: "AI Ethics at SAP", org: "openSAP", note: "Jun 2024" },
+    { title: "Generative AI at SAP", org: "openSAP", note: "Mar 2024" },
+    { title: "Introducing the Field of Cybersecurity", org: "SAP", note: "Feb 2024" },
+    { title: "Discovering SAP Business Technology Platform", org: "SAP", note: "Aug 2023" },
+    { title: "Exploring the SAP SuccessFactors Platform", org: "SAP", note: "Aug 2023" },
+    { title: "AZ-120: SAP workloads on Azure", org: "Microsoft", note: "2022" }
+  ],
+  certsShown: 8,
+
+  languages: [
+    { name: "Telugu", level: "Native or bilingual" },
+    { name: "English", level: "Professional" },
+    { name: "Hindi", level: "Limited working" },
+    { name: "German", level: "Elementary, currently learning", note: "Duolingo Score 10, Oct 2026" }
+  ]
+};
+</script>
+
+<style>
+:root{
+  --bg:#FAFAF7; --surface:#FFFFFF; --ink:#1B1B2F; --muted:#5C5C73;
+  --primary:#3B2FD9; --accent:#FF7A1A; --line:#D9D8E6; --todo:#FFE8D4;
+  --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --body:"Instrument Sans","Segoe UI",system-ui,-apple-system,sans-serif;
+}
+:root[data-palette="petrol"]{ --bg:#EEF2F3; --ink:#12262E; --muted:#55696F; --primary:#0B5C6B; --accent:#E0A526; --line:#C5D2D6; --todo:#FFF1CC; }
+:root[data-palette="forest"]{ --bg:#F4F7F2; --ink:#14261B; --muted:#5A6B5F; --primary:#1F6B45; --accent:#D9A520; --line:#D0DBD2; --todo:#FBEFC9; }
+:root[data-palette="navy"]{ --bg:#F3F6FB; --ink:#0E1B33; --muted:#56627A; --primary:#0A4FCF; --accent:#00A6B8; --line:#D3DBEA; --todo:#D6F3F6; }
+:root[data-palette="graphite"]{ --bg:#F5F5F5; --ink:#1C1C1E; --muted:#62626A; --primary:#2B2B30; --accent:#E03131; --line:#DADADD; --todo:#FBDADA; }
+:root[data-palette="plum"]{ --bg:#F7F4F8; --ink:#24152B; --muted:#675A6E; --primary:#6B2A8C; --accent:#E0A21A; --line:#DFD6E3; --todo:#FBEFC9; }
+:root[data-palette="lagoon"]{ --bg:#F2F7F6; --ink:#10262A; --muted:#54696C; --primary:#0E7C7B; --accent:#F2643D; --line:#CFDEDC; --todo:#FDE0D6; }
+:root[data-palette="slate"]{ --bg:#F4F6F7; --ink:#1A2228; --muted:#5B6770; --primary:#334155; --accent:#10B981; --line:#D5DBE0; --todo:#D3F5E8; }
+:root[data-palette="terracotta"]{ --bg:#FBF6F2; --ink:#2B1A12; --muted:#73605A; --primary:#B4532A; --accent:#1E3A8A; --line:#E6D9D0; --todo:#DCE4F8; }
+:root[data-palette="royal"]{ --bg:#F5F7FC; --ink:#101A3A; --muted:#5A6485; --primary:#1D3FB8; --accent:#E6A700; --line:#D5DBEE; --todo:#FCEFC4; }
+:root[data-palette="violet"]{ --bg:#FFFFFF; --ink:#0F0F12; --muted:#5F6068; --primary:#6D28D9; --accent:#06B6D4; --line:#E2E2E8; --todo:#D4F4FA; }
+:root[data-palette="sky"]{ --bg:#F0F8FF; --ink:#0A2540; --muted:#4D647A; --primary:#0277BD; --accent:#FF5C8A; --line:#C9E2F5; --todo:#FFE0EA; }
+:root[data-palette="sunset"]{ --bg:#FFF7F2; --ink:#2A1020; --muted:#6F5562; --primary:#D6246E; --accent:#FF8A00; --line:#F0D9DE; --todo:#FFE7C2; }
+:root[data-palette="electric"]{ --bg:#F5F7FF; --ink:#0D1033; --muted:#565A80; --primary:#2F4BFF; --accent:#00C853; --line:#D7DBF5; --todo:#D2F7E0; }
+:root[data-palette="burgundy"]{ --bg:#F8F5F4; --ink:#2A1418; --muted:#6E5A5E; --primary:#8C1C3A; --accent:#1F9E8F; --line:#E2D6D8; --todo:#D9F2EE; }
+@media (prefers-color-scheme:dark){
+  :root{ --bg:#12121F; --surface:#1C1C30; --ink:#ECECF6; --muted:#A3A3BC;
+    --primary:#9A92FF; --accent:#FF9A4D; --line:#2E2E48; --todo:#4A2A10; }
+  :root[data-palette="petrol"]{ --bg:#0E1D23; --surface:#152A32; --ink:#E6EEF0; --muted:#9DB0B6; --primary:#6CC5D2; --accent:#F0B93A; --line:#2A434C; --todo:#4A3A0C; }
+  :root[data-palette="forest"]{ --bg:#0F1A13; --surface:#18271D; --ink:#E8F0EA; --muted:#A2B5A8; --primary:#6FCF97; --accent:#F0C24A; --line:#2A3F31; --todo:#40330A; }
+  :root[data-palette="navy"]{ --bg:#0A1222; --surface:#131E36; --ink:#E7EDF8; --muted:#9FAECB; --primary:#7FA8FF; --accent:#3FD3E3; --line:#25324F; --todo:#0C3A40; }
+  :root[data-palette="graphite"]{ --bg:#141415; --surface:#1F1F22; --ink:#EDEDEF; --muted:#A8A8B0; --primary:#E4E4E8; --accent:#FF6B6B; --line:#34343A; --todo:#4A1414; }
+  :root[data-palette="plum"]{ --bg:#170E1B; --surface:#23162A; --ink:#F1E9F4; --muted:#B5A6BC; --primary:#C78BE6; --accent:#F0C24A; --line:#3A2944; --todo:#40330A; }
+  :root[data-palette="lagoon"]{ --bg:#0B1A1C; --surface:#13282B; --ink:#E6F1F0; --muted:#9DB5B6; --primary:#5FD0CC; --accent:#FF8A66; --line:#254044; --todo:#4A2014; }
+  :root[data-palette="slate"]{ --bg:#11161A; --surface:#1A2228; --ink:#E8ECEF; --muted:#A3AEB7; --primary:#B8C4D2; --accent:#34D399; --line:#2C3840; --todo:#0E3B2C; }
+  :root[data-palette="terracotta"]{ --bg:#1C120D; --surface:#2A1B14; --ink:#F5EAE3; --muted:#C0AAA0; --primary:#F0976B; --accent:#8FA8F5; --line:#45302A; --todo:#1A2550; }
+  :root[data-palette="royal"]{ --bg:#0A1024; --surface:#131B38; --ink:#E8ECF8; --muted:#A2ACCB; --primary:#8AA2FF; --accent:#F5C542; --line:#263056; --todo:#40330A; }
+  :root[data-palette="violet"]{ --bg:#0F0F12; --surface:#1A1A20; --ink:#F2F2F5; --muted:#A9AAB3; --primary:#B794FF; --accent:#4DD8EE; --line:#2E2E38; --todo:#0C3A44; }
+  :root[data-palette="sky"]{ --bg:#071A2B; --surface:#0E2740; --ink:#E6F3FF; --muted:#9DB8D0; --primary:#5CC3FF; --accent:#FF7FA3; --line:#1D3B57; --todo:#4A1426; }
+  :root[data-palette="sunset"]{ --bg:#1B0C14; --surface:#2A1420; --ink:#FBEAF1; --muted:#C7A7B6; --primary:#FF79AE; --accent:#FFA640; --line:#472234; --todo:#4A2E05; }
+  :root[data-palette="electric"]{ --bg:#0A0C24; --surface:#14173A; --ink:#ECEEFF; --muted:#A5A9D6; --primary:#8C9BFF; --accent:#3DDC84; --line:#272B5C; --todo:#0C3A20; }
+  :root[data-palette="burgundy"]{ --bg:#1A0F11; --surface:#27171A; --ink:#F3E9EA; --muted:#BBA5A9; --primary:#F08CA3; --accent:#5FD1C3; --line:#40282D; --todo:#113A35; }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:4.5rem}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:1.0625rem;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:var(--primary);text-underline-offset:.2em}
+a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.wrap{max-width:68rem;margin:0 auto;padding:0 1.5rem}
+.todo{background:var(--todo);border-bottom:2px dashed var(--accent);padding:0 .2em;border-radius:2px}
+
+/* nav */
+.nav{position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:3.5rem}
+.brand{white-space:nowrap;font-family:var(--display);font-weight:800;font-size:1.15rem;color:var(--ink);text-decoration:none}
+.nav ul{display:flex;gap:.95rem;list-style:none;margin:0;padding:0;overflow-x:auto}
+.nav li a{color:var(--muted);text-decoration:none;font-size:.875rem;white-space:nowrap}
+.nav li a:hover{color:var(--ink)}
+
+/* hero */
+.hero{padding:5rem 0 4rem}
+.hero h1{font-family:var(--display);font-weight:800;font-size:clamp(3.5rem,13vw,9rem);line-height:.9;letter-spacing:-.04em;margin:0}
+.hero h2{font-family:var(--display);font-weight:600;font-size:clamp(1.4rem,3.2vw,2.25rem);line-height:1.15;letter-spacing:-.01em;margin:1.5rem 0 0;color:var(--primary);max-width:22ch}
+.hero p{max-width:38rem;margin:1.25rem 0 0;font-size:1.15rem;color:var(--muted)}
+.actions{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:2rem}
+.btn{display:inline-block;padding:.75rem 1.25rem;border-radius:999px;border:2px solid var(--primary);font:600 1rem var(--body);text-decoration:none;cursor:pointer;background:transparent;color:var(--primary)}
+.btn.solid{background:var(--primary);color:var(--bg)}
+.btn:hover{filter:brightness(1.1)}
+
+/* the flow: career drawn as an integration flow */
+.flow{display:flex;align-items:center;margin-top:4rem;gap:0}
+.event{flex:none;width:20px;height:20px;border-radius:50%;border:2px solid var(--primary)}
+.event.end{border-width:6px}
+.wire{flex:1;min-width:1.25rem;height:2px;background:var(--primary);position:relative}
+.wire::after{content:"";position:absolute;right:-1px;top:-5px;border:6px solid transparent;border-left-color:var(--primary);border-right:0}
+.wire::before{content:"";position:absolute;top:-5px;left:0;width:12px;height:12px;border-radius:50%;background:var(--accent);opacity:0;animation:token .7s ease-in-out forwards;animation-delay:calc(var(--i) * .7s + .4s)}
+@keyframes token{0%{left:0;opacity:1}90%{opacity:1}100%{left:calc(100% - 12px);opacity:0}}
+.task{flex:none;background:var(--surface);border:2px solid var(--primary);border-radius:10px;padding:.8rem .95rem;font-family:var(--display);font-weight:600;font-size:1rem;line-height:1.2;max-width:10.5rem}
+.task.next{border:2px dashed var(--accent)}
+@media (max-width:1040px){
+  .flow{flex-direction:column;align-items:flex-start;margin-left:.5rem}
+  .wire{flex:none;width:2px;height:1.75rem;min-width:0;margin-left:9px}
+  .wire::after{right:-5px;top:auto;bottom:-1px;border:6px solid transparent;border-top-color:var(--primary);border-bottom:0}
+  .wire::before{display:none}
+  .task{max-width:none;width:min(100%,19rem)}
+}
+@media (prefers-reduced-motion:reduce){.wire::before{display:none}html{scroll-behavior:auto}}
+
+/* sections */
+.block{border-top:1px solid var(--line);padding:4rem 0}
+.block .wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2.4fr);gap:2rem 3rem}
+.block h2{font-family:var(--display);font-weight:800;font-size:clamp(1.75rem,3vw,2.4rem);line-height:1.05;letter-spacing:-.02em;margin:0}
+.block h3{font-family:var(--display);font-weight:600;font-size:1.25rem;line-height:1.25;margin:0}
+.body p{margin:0 0 1rem;max-width:40rem}
+@media (max-width:760px){.block{padding:3rem 0}.block .wrap{grid-template-columns:1fr}}
+
+/* experience lane */
+.lane{list-style:none;margin:0;padding:0 0 0 1.75rem;border-left:2px solid var(--primary)}
+.lane li{position:relative;padding-bottom:2.25rem}
+.lane li:last-child{padding-bottom:0}
+.lane li::before{content:"";position:absolute;left:calc(-1.75rem - 8px);top:.35rem;width:14px;height:14px;border-radius:50%;background:var(--bg);border:2px solid var(--primary)}
+#lane > li:first-child::before,.lane li.now::before{background:var(--accent);border-color:var(--accent)}
+.lane li.now h3{color:var(--primary)}
+.lane .meta{margin:0}
+#lane .meta{margin:.15rem 0 .5rem}
+.jd{margin:.35rem 0 0;max-width:40rem;color:var(--muted)}
+.meta{color:var(--muted);font-size:.95rem;margin:.15rem 0 .5rem}
+.lane ul{margin:0;padding-left:1.1rem}
+.lane ul li{padding:0 0 .25rem}
+.lane ul li::before{display:none}
+
+/* skills */
+.skillrow{display:grid;grid-template-columns:9rem 1fr;gap:.5rem 1.5rem;padding:1rem 0;border-bottom:1px solid var(--line)}
+.skillrow:first-child{padding-top:0}
+.chips{display:flex;flex-wrap:wrap;gap:.4rem}
+.chip{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:.2rem .6rem;font-size:.95rem}
+@media (max-width:520px){.skillrow{grid-template-columns:1fr}}
+
+/* projects */
+.projs{display:grid;grid-template-columns:1fr 1fr;gap:2rem 2.5rem}
+.projs article{border-top:2px solid var(--primary);padding-top:1rem}
+.projs p{margin:.5rem 0 .75rem;color:var(--muted)}
+@media (max-width:760px){.projs{grid-template-columns:1fr}}
+
+/* achievements + lists */
+.rows{margin:0}
+.rows div{padding:1rem 0;border-bottom:1px solid var(--line)}
+.rows div:first-child{padding-top:0}
+.rows dt{font-family:var(--display);font-weight:600;font-size:1.25rem}
+.rows dd{margin:.2rem 0 0;color:var(--muted)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:2.5rem}
+@media (max-width:760px){.two{grid-template-columns:1fr}}
+.plain{list-style:none;margin:.75rem 0 0;padding:0}
+.plain li{padding:.5rem 0;border-bottom:1px solid var(--line)}
+.more{margin-top:.75rem}.more summary{cursor:pointer;font-weight:600;color:var(--primary);padding:.4rem 0}
+.plain small{display:block;color:var(--muted);font-size:.9rem}
+.langs{display:flex;flex-wrap:wrap;gap:.75rem}
+.lang{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:.7rem 1rem;min-width:9rem}
+.lang b{display:block;font-family:var(--display);font-size:1.1rem}
+.lang span{color:var(--muted);font-size:.9rem}
+.lang span{display:block}.lang .note{color:var(--primary);font-weight:600;margin-top:.15rem}
+
+/* posts */
+.posts{display:grid;grid-template-columns:repeat(auto-fill,minmax(18rem,1fr));gap:1rem}
+.posts iframe{width:100%;height:32rem;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+
+/* contact */
+form{display:grid;gap:.9rem;max-width:34rem;margin-top:1.5rem}
+label{font-weight:600;font-size:.95rem;display:grid;gap:.3rem}
+input,textarea{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:.7rem .8rem;width:100%}
+textarea{min-height:8rem;resize:vertical}
+#status{min-height:1.5rem;margin:0;color:var(--muted)}
+footer{border-top:1px solid var(--line);padding:2rem 0;color:var(--muted);font-size:.9rem}
+</style>
+</head>
+<body>
+
+<nav class="nav" aria-label="Sections">
+  <div class="wrap">
+    <a class="brand" href="#top" id="brand"></a>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#architecture">Architecture</a></li>
+      <li><a href="#journey">AI journey</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#learning">Education</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main id="top">
+  <header class="hero">
+    <div class="wrap">
+      <h1 id="name"></h1>
+      <h2 id="headline"></h2>
+      <p id="intro"></p>
+      <div class="actions" id="actions"></div>
+      <div class="flow" id="flow" role="img"></div>
+    </div>
+  </header>
+
+  <section class="block" id="about"><div class="wrap"><h2>About</h2><div class="body" id="aboutBody"></div></div></section>
+  <section class="block" id="architecture"><div class="wrap"><h2>Turning SAP investment into business value</h2>
+    <div class="body"><div id="archIntro"></div><dl class="rows" id="archBody"></dl></div></div></section>
+  <section class="block" id="journey"><div class="wrap"><h2>From SAP to agentic AI</h2><ol class="lane" id="journeyBody"></ol></div></section>
+  <section class="block" id="experience"><div class="wrap"><h2>Experience</h2><ol class="lane" id="lane"></ol></div></section>
+  <section class="block" id="projects"><div class="wrap"><h2>Projects</h2><div class="projs" id="projBody"></div></div></section>
+  <section class="block" id="skills"><div class="wrap"><h2>What I work with</h2><div id="skillBody"></div></div></section>
+  <section class="block" id="achievements"><div class="wrap"><h2>Achievements</h2><dl class="rows" id="achBody"></dl></div></section>
+  <section class="block" id="learning"><div class="wrap"><h2>Education and certifications</h2>
+    <div class="two">
+      <div><h3>Education</h3><ul class="plain" id="eduBody"></ul></div>
+      <div><h3>Certifications</h3><ul class="plain" id="certBody"></ul></div>
+    </div></div></section>
+  <section class="block" id="research"><div class="wrap"><h2>Research collaboration</h2>
+    <div class="body"><div id="researchIntro"></div><dl class="rows" id="researchBody"></dl>
+    <div class="actions"><a class="btn solid" id="researchBtn">Propose a collaboration</a></div></div></div></section>
+  <section class="block" id="languages"><div class="wrap"><h2>Languages</h2><div class="langs" id="langBody"></div></div></section>
+  <section class="block" id="posts" hidden><div class="wrap"><h2>Recent LinkedIn posts</h2><div class="posts" id="postBody"></div></div></section>
+
+  <section class="block" id="contact"><div class="wrap"><h2>Contact</h2>
+    <div class="body">
+      <p>For architecture conversations, AI projects or roles, email me or connect on LinkedIn.</p>
+      <div class="actions" id="contactLinks" style="margin-top:0"></div>
+      <form id="form" novalidate>
+        <label>Your name <input name="name" autocomplete="name" required></label>
+        <label>Your email <input name="email" type="email" autocomplete="email" required></label>
+        <label>Message <textarea name="message" required></textarea></label>
+        <div><button class="btn solid" type="submit">Send message</button></div>
+        <p id="status" role="status"></p>
+      </form>
+    </div></div></section>
+</main>
+
+<footer><div class="wrap" id="foot"></div></footer>
+
+<script>
+const P = PROFILE;
+const FONTS = {
+  bricolage: ["Bricolage Grotesque", "Instrument Sans", "Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Instrument+Sans:wght@400;500;600"],
+  grotesk:   ["Space Grotesk", "IBM Plex Sans", "Space+Grotesk:wght@400;600;700&family=IBM+Plex+Sans:wght@400;500;600"],
+  jakarta:   ["Plus Jakarta Sans", "Plus Jakarta Sans", "Plus+Jakarta+Sans:wght@400;500;600;800"],
+  editorial: ["Fraunces", "Source Sans 3", "Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&family=Source+Sans+3:wght@400;500;600"],
+  outfit:    ["Outfit", "DM Sans", "Outfit:wght@400;600;800&family=DM+Sans:wght@400;500;600"],
+  manrope:   ["Manrope", "Manrope", "Manrope:wght@400;500;600;800"]
+};
+{
+  const f = FONTS[P.font] || FONTS.bricolage, l = document.createElement("link"), r = document.documentElement.style;
+  l.rel = "stylesheet"; l.href = `https://fonts.googleapis.com/css2?family=${f[2]}&display=swap`;
+  document.head.appendChild(l);
+  const fb = P.font === "editorial" ? "Georgia,serif" : '"Segoe UI",system-ui,sans-serif';
+  r.setProperty("--display", `"${f[0]}",${fb}`);
+  r.setProperty("--body", `"${f[1]}","Segoe UI",system-ui,-apple-system,sans-serif`);
+}
+document.documentElement.dataset.palette = P.theme || "sky";
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+const t = s => /TODO/.test(s) ? `<span class="todo">${esc(s)}</span>` : esc(s);
+const $ = id => document.getElementById(id);
+
+$("brand").textContent = P.name;
+$("name").textContent = P.name;
+$("headline").textContent = P.headline;
+$("intro").textContent = P.intro;
+
+const links = [
+  `<a class="btn solid" href="mailto:${esc(P.email)}">Email me</a>`,
+  `<a class="btn" href="${esc(P.linkedin)}" target="_blank" rel="noopener">LinkedIn</a>`,
+  P.github ? `<a class="btn" href="${esc(P.github)}" target="_blank" rel="noopener">GitHub</a>` : "",
+  P.resumeUrl ? `<a class="btn" href="${esc(P.resumeUrl)}">Download CV</a>` : ""
+].join("");
+$("actions").innerHTML = links;
+$("contactLinks").innerHTML = links;
+
+$("flow").setAttribute("aria-label", "Career path: " + P.path.join(", then "));
+$("flow").innerHTML = `<span class="event"></span>` +
+  P.path.map((s, i) => `<span class="wire" style="--i:${i}"></span><span class="task${i === P.path.length - 1 ? " next" : ""}">${esc(s)}</span>`).join("") +
+  `<span class="wire" style="--i:${P.path.length}"></span><span class="event end"></span>`;
+
+$("aboutBody").innerHTML = P.about.map(p => `<p>${t(p)}</p>`).join("");
+
+$("archIntro").innerHTML = P.architecture.intro.map(p => `<p>${t(p)}</p>`).join("");
+$("archBody").innerHTML = P.architecture.principles.map(a => `<div><dt>${t(a.title)}</dt><dd>${t(a.detail)}</dd></div>`).join("");
+$("journeyBody").innerHTML = P.journey.map(j => `<li class="${j.now ? "now" : "step"}">
+  <p class="meta">${t(j.when)}</p><h3>${t(j.title)}</h3><p class="jd">${t(j.detail)}</p></li>`).join("");
+$("researchIntro").innerHTML = P.research.intro.map(p => `<p>${t(p)}</p>`).join("");
+$("researchBody").innerHTML = P.research.interests.map(a => `<div><dt>${t(a.title)}</dt><dd>${t(a.detail)}</dd></div>`).join("");
+$("researchBtn").href = `mailto:${P.email}?subject=${encodeURIComponent("Research collaboration")}`;
+
+$("lane").innerHTML = P.experience.map(e => `<li>
+  <h3>${t(e.org)}</h3>
+  <p class="meta">${t(e.role)}, ${t(e.place)} (${t(e.period)})</p>
+  <ul>${e.points.map(p => `<li>${t(p)}</li>`).join("")}</ul></li>`).join("");
+
+$("skillBody").innerHTML = P.skills.map(s => `<div class="skillrow"><h3>${esc(s.group)}</h3>
+  <div class="chips">${s.items.map(i => `<span class="chip">${t(i)}</span>`).join("")}</div></div>`).join("");
+
+$("projBody").innerHTML = P.projects.map(p => `<article><h3>${t(p.title)}</h3><p>${t(p.detail)}</p>
+  <div class="chips">${p.tags.map(x => `<span class="chip">${esc(x)}</span>`).join("")}</div></article>`).join("");
+$("achBody").innerHTML = P.achievements.map(a => `<div><dt>${t(a.title)}</dt><dd>${t(a.detail)}</dd></div>`).join("");
+$("eduBody").innerHTML = P.education.map(e => `<li>${t(e.title)}<small>${t(e.org)}, ${t(e.note)}</small></li>`).join("");
+const certLi = c => `<li>${t(c.title)}<small>${t(c.org)}, ${t(c.note)}</small></li>`;
+$("certBody").innerHTML = P.certifications.slice(0, P.certsShown).map(certLi).join("");
+if (P.certifications.length > P.certsShown) {
+  const rest = P.certifications.slice(P.certsShown);
+  $("certBody").insertAdjacentHTML("afterend",
+    `<details class="more"><summary>Show ${rest.length} more</summary><ul class="plain">${rest.map(certLi).join("")}</ul></details>`);
+}
+$("langBody").innerHTML = P.languages.map(l => `<div class="lang"><b>${t(l.name)}</b><span>${t(l.level)}</span>${l.note ? `<span class="note">${t(l.note)}</span>` : ""}</div>`).join("");
+
+if (P.linkedinPosts.length) {
+  $("posts").hidden = false;
+  $("postBody").innerHTML = P.linkedinPosts.map(u => `<iframe src="${esc(u)}" title="LinkedIn post" loading="lazy" allowfullscreen></iframe>`).join("");
+}
+
+$("foot").textContent = `${P.name}, ${P.location}. Last updated ${P.updated}.`;
+
+$("form").addEventListener("submit", async ev => {
+  ev.preventDefault();
+  const f = ev.target, s = $("status");
+  const d = { name: f.name.value.trim(), email: f.email.value.trim(), message: f.message.value.trim() };
+  if (!d.name || !d.message || !/^\S+@\S+\.\S+$/.test(d.email)) {
+    s.textContent = "Add your name, a valid email and a message, then send again."; return;
+  }
+  if (!P.web3formsKey) {
+    location.href = `mailto:${P.email}?subject=${encodeURIComponent("Message from " + d.name)}&body=${encodeURIComponent(d.message + "\n\n" + d.name + "\n" + d.email)}`;
+    s.textContent = "Your email app is opening with the message ready to send."; return;
+  }
+  s.textContent = "Sending your message.";
+  try {
+    const r = await fetch("https://api.web3forms.com/submit", {
+      method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" },
+      body: JSON.stringify({ access_key: P.web3formsKey, subject: "Website message from " + d.name, ...d })
+    });
+    if (!r.ok) throw new Error();
+    f.reset(); s.textContent = "Message sent. I will reply by email.";
+  } catch {
+    s.textContent = "The message did not send. Email me directly using the button above.";
+  }
+});
+</script>
+</body>
+</html>
